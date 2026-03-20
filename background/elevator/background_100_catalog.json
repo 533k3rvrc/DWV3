@@ -1,0 +1,25 @@
+﻿{
+    "backgroundId": 100,
+    "partFileNames": [
+        "background_100_part00.txt",
+        "background_100_part01.txt",
+        "background_100_part02.txt",
+        "background_100_part03.txt",
+        "background_100_part04.txt",
+        "background_100_part05.txt",
+        "background_100_part06.txt",
+        "background_100_part07.txt",
+        "background_100_part08.txt"
+    ],
+    "hierarchyPaths": [
+        "button",
+        "control_panel",
+        "control_panel_screen",
+        "door",
+        "kago_floor",
+        "kago_roof",
+        "kago_roof.001",
+        "kago_wall",
+        "tesuri"
+    ]
+}
