@@ -1,15 +1,17 @@
 {
     "backgroundId": 100,
+    "singleSlotPerPart": false,
+    "payloadMode": "ScatteredPartialXorExperimental",
     "partFileNames": [
-        "background_100_part00.txt",
-        "background_100_part01.txt",
-        "background_100_part02.txt",
-        "background_100_part03.txt",
-        "background_100_part04.txt",
-        "background_100_part05.txt",
-        "background_100_part06.txt",
-        "background_100_part07.txt",
-        "background_100_part08.txt"
+        "background_100_part00.bytes",
+        "background_100_part01.bytes",
+        "background_100_part02.bytes",
+        "background_100_part03.bytes",
+        "background_100_part04.bytes",
+        "background_100_part05.bytes",
+        "background_100_part06.bytes",
+        "background_100_part07.bytes",
+        "background_100_part08.bytes"
     ],
     "hierarchyPaths": [
         "button",
@@ -21,5 +23,79 @@
         "kago_roof.001",
         "kago_wall",
         "tesuri"
+    ],
+    "slots": [
+        {
+            "slotIndex": 0,
+            "hierarchyPath": "button",
+            "materialCount": 3,
+            "submeshCount": 3,
+            "partIndex": 0,
+            "partFileName": "background_100_part00.bytes"
+        },
+        {
+            "slotIndex": 1,
+            "hierarchyPath": "control_panel",
+            "materialCount": 1,
+            "submeshCount": 1,
+            "partIndex": 1,
+            "partFileName": "background_100_part01.bytes"
+        },
+        {
+            "slotIndex": 2,
+            "hierarchyPath": "control_panel_screen",
+            "materialCount": 2,
+            "submeshCount": 2,
+            "partIndex": 2,
+            "partFileName": "background_100_part02.bytes"
+        },
+        {
+            "slotIndex": 3,
+            "hierarchyPath": "door",
+            "materialCount": 1,
+            "submeshCount": 1,
+            "partIndex": 3,
+            "partFileName": "background_100_part03.bytes"
+        },
+        {
+            "slotIndex": 4,
+            "hierarchyPath": "kago_floor",
+            "materialCount": 1,
+            "submeshCount": 1,
+            "partIndex": 4,
+            "partFileName": "background_100_part04.bytes"
+        },
+        {
+            "slotIndex": 5,
+            "hierarchyPath": "kago_roof",
+            "materialCount": 2,
+            "submeshCount": 2,
+            "partIndex": 5,
+            "partFileName": "background_100_part05.bytes"
+        },
+        {
+            "slotIndex": 6,
+            "hierarchyPath": "kago_roof.001",
+            "materialCount": 1,
+            "submeshCount": 1,
+            "partIndex": 6,
+            "partFileName": "background_100_part06.bytes"
+        },
+        {
+            "slotIndex": 7,
+            "hierarchyPath": "kago_wall",
+            "materialCount": 2,
+            "submeshCount": 2,
+            "partIndex": 7,
+            "partFileName": "background_100_part07.bytes"
+        },
+        {
+            "slotIndex": 8,
+            "hierarchyPath": "tesuri",
+            "materialCount": 2,
+            "submeshCount": 2,
+            "partIndex": 8,
+            "partFileName": "background_100_part08.bytes"
+        }
     ]
 }
